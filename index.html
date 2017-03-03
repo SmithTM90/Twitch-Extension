@@ -4,23 +4,21 @@
     <title>Twitch Extension</title>
     <link rel="stylesheet" href="styles.css">
 
-    <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-      }
-      #status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
-      }
-    </style>
-
   </head>
   <body>
-    <div id="status">Fetching Twitch Streams</div>
+    <div id="status">
+      <iframe src="http://player.twitch.tv/?channel=sadaplays"
+        height="350px"
+        width="475px"
+        frameborder="0"
+        scrolling="no"
+        allowfullscreen="false"
+        muted="true">
+        </iframe>
+
+    </div>
+
+
     <script type="text/javascript" src="app.js" async></script>
   </body>
 </html>

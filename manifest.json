@@ -3,8 +3,7 @@
 
   "name": "Twitch Extension",
   "description": "This extension displays the streams that you follow that are currently live, in a pop-up window for easy stream previewing",
-  "version": "0.1"
-  },
+  "version": "0.1",
 
   "browser_action": {
     "default_icon": "Glitch_Purple_RGB.png",
